@@ -9,23 +9,23 @@ void main()
 	const int SIZE = 10;
 	int arr[SIZE];
 
-	bool already;
+	bool check;
 
 	for (int i = 0; i < SIZE; )
 	{
-		already = false;
+		check = false;
 		int newValue = rand() % 10;
 
 		for (int j = 0; j < i; j++) //проверяет дубликат числа
 		{
 			if (arr[j] == newValue) 
 			{
-				already = true;
+				check = true;
 				break;
 			}
 		}
 
-		if (!already)
+		if (!check)
 		{
 			arr[i] = newValue; //добавляем новый элемент
 			i++; //переходим на следующую ячейку
