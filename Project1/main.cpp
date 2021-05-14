@@ -16,9 +16,9 @@ void main()
 		check = false;
 		int newValue = rand() % 10;
 
-		for (int j = 0; j < i; j++) //проверяет дубликат числа
+		for (int j = 0; j < i; j++) 
 		{
-			if (arr[j] == newValue) 
+			if (arr[j] == newValue) //проверяет дубликат числа
 			{
 				check = true;
 				break;
