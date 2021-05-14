@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include<ctime>
 using namespace std;
 
@@ -16,7 +16,7 @@ void main()
 		already = false;
 		int newValue = rand() % 10;
 
-		for (int j = 0; j < i; j++) //ïðîâåðÿåò äóáëèêàò ÷èñëà
+		for (int j = 0; j < i; j++) //Ð¿Ñ€Ð¾Ð²ÐµÑ€ÑÐµÑ‚ Ð´ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ‚ Ñ‡Ð¸ÑÐ»Ð°
 		{
 			if (arr[j] == newValue) 
 			{
@@ -27,8 +27,8 @@ void main()
 
 		if (!already)
 		{
-			arr[i] = newValue; //äîáàâëÿåì íîâûé ýëåìåíò
-			i++; //ïåðåõîäèì íà ñëåäóþùóþ ÿ÷åéêó
+			arr[i] = newValue; //Ð´Ð¾Ð±Ð°Ð²Ð»ÑÐµÐ¼ Ð½Ð¾Ð²Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚
+			i++; //Ð¿ÐµÑ€ÐµÑ…Ð¾Ð´Ð¸Ð¼ Ð½Ð° ÑÐ»ÐµÐ´ÑƒÑŽÑ‰ÑƒÑŽ ÑÑ‡ÐµÐ¹ÐºÑƒ
 		}
 	}
 
